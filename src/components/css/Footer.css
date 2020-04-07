@@ -1,0 +1,14 @@
+footer {
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    background-color: #222;
+}
+
+.footer-h1 {
+    font-weight: normal;
+}
+
+.footer-smallprint {
+    font-size: .8em;
+}

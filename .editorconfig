@@ -1,0 +1,14 @@
+root = true
+
+[*]
+charset = utf-8
+trim_trailing_whitespace = true
+end_of_line = lf
+
+[*.{java, js, jsp, kt, kts, md, properties, sh, sql, yml, yaml, htm, html, css}]
+indent_style = space
+insert_final_newline = true
+
+[*.{js, json, htm, html, css}]
+indent_size = 4
+continuation_indent_size = 4
