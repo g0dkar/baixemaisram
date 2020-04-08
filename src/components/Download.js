@@ -27,8 +27,8 @@ const Animation = () => {
                 setPhrase("Inicializando...")
                 ReactGA.event({
                     category: "download-ram",
-                    action: "start",
-                    label: "Started RAM Download",
+                    action: `start-${amountInt}gb`,
+                    label: `Started ${amountInt}GB`,
                     value: amountInt
                 })
                 break
@@ -40,8 +40,8 @@ const Animation = () => {
                 setPhrase("Pronto!")
                 ReactGA.event({
                     category: "download-ram",
-                    action: "finish",
-                    label: "Finished RAM Download",
+                    action: `finish-${amountInt}gb`,
+                    label: `Finished ${amountInt}GB`,
                     value: amountInt
                 })
             }
@@ -66,7 +66,7 @@ const Animation = () => {
                 </div>
                 {pct < 100
                     ? <button type="button" className="download-ram-btn" onClick={() => tick(1)} disabled={pct !== 0}>Baixar</button>
-                    : <p><strong>Download Completo!</strong><br />Clique <a href={`https://www.youtube.com/watch?v=${videoId}`}>aqui</a> para mais informa&ccedil;&otilde;es.</p>}
+                    : <p><strong>Download Completo!</strong><br />Clique <a href={`https://www.youtube.com/watch?v=${videoId}`}>aqui</a> para mais informações.</p>}
             </div>
         </>
     )
