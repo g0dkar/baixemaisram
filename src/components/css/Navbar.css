@@ -35,7 +35,7 @@
 
 .navbar-nav-link {
     display: inline-block;
-    padding: .5em 1em;
+    padding: .5em .6em;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
@@ -44,11 +44,12 @@
 
 .navbar-nav-link, .navbar-nav-link:visited {
     color: #fff;
-    opacity: .7;
+    opacity: .8;
 }
 
 .navbar-nav-link:hover {
     opacity: 1;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
 }
 
 .navbar-nav-link.current {

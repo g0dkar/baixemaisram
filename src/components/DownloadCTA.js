@@ -44,7 +44,7 @@ const DownloadCTA = ({ linkMap }) => {
         <div id="download-cta">
             <h1 className="download-cta-h1">Baixe agora</h1>
             <div className="download-cta-div div-div"></div>
-            <p className="download-cta-cta">Por favor, escolha a quantidade de RAM que voc&ecirc; gostaria de baixar. RAM nunca &eacute; demais!</p>
+            <p className="download-cta-cta">Por favor, escolha a quantidade de RAM que você gostaria de baixar. RAM nunca é demais!</p>
             <div className="download-cta-options">
                 {availableOptions.map(opt => <DownloadOption key={opt.amount} amount={opt.amount} img={opt.img} link={linkMap.download} />)}
             </div>
