@@ -29,9 +29,18 @@ Para saber mais sobre mim, visite <http://rafaelmadureiralins.com.br> :)
 Quanto ao DownloadMoreRAM.com... Não consegui encontrar o(a) autor(a) e nem entrar em contato (bom, mandei e-mail
 mas continuo sem resposta). Autoria da ideia original e do site o qual copiei é 100% de seja quem for que fez ele!
 
-### Contribuindo
+### Contribuindo e Contato
 
-Caso queira contribuir, sinta-se a vontade para criar *Pull Requests* ou
+Caso queira contribuir, sinta-se a vontade para criar *Pull Requests* ou abrir _Issues_ sugerindo quaisquer coisas.
+32GB de RAM já nāo é mais o bastante? Sem problemas, podemos aumentar para 64GB de RAM!
+
+Caso prefira, você pode entrar em contato comigo via e-mail: `rafael [arroba] baixemaisram.com.br`.
+
+### Doações e afins
+
+Tudo isso é **sem qualquer fim lucrativo**. Custa bem pouco manter o site e adoro bobagens assim, isso que me motiva.
+
+Sinta-se livre pra usar a funçāo de *Sponsorship* do Github. Fora isso, boa sorte tentando doar algo hahaha >:)
 
 ## Executando e Construindo
 
