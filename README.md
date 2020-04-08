@@ -3,7 +3,12 @@ BaixeMaisRAM.com.br
 
 Este repositório tem o código do https://baixemaisram.com.br :)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi _bootstrapped_ usando [Create React App](https://github.com/facebook/create-react-app).
+Projeto feito apartir de:
+
+1. Uma ideia boba de amigos conversando besteira;
+2. Tédio durante a [quarentena do COVID-19 em 2020](https://pt.wikipedia.org/wiki/COVID-19);
+3. Exercício do conteúdo que aprendi [neste curso](https://fullstackopen.com/en) (o qual recomendo, mas é em inglês)
 
 ## Available Scripts
 
