@@ -38,9 +38,8 @@ Caso prefira, você pode entrar em contato comigo via e-mail: `rafael [arroba] b
 
 ### Doações e afins
 
-Tudo isso é **sem qualquer fim lucrativo**. Custa bem pouco manter o site e adoro bobagens assim, isso que me motiva.
-
-Sinta-se livre pra usar a funçāo de *Sponsorship* do Github. Fora isso, boa sorte tentando doar algo hahaha >:)
+Nāo, obrigado. Tudo isso é **sem qualquer fim lucrativo**. Custa bem pouco manter o site e adoro
+bobagens assim, isso que me motiva.
 
 ## Executando e Construindo
 
