@@ -9,17 +9,16 @@ const Footer = () => {
         <footer id="sobre">
             <h1 className="footer-h1">Como funciona?</h1>
             <div className="div-div"></div>
-            <p>Como que este site funciona, você quer saber? Baixe Mais RAM faz exatamente o que diz na embalagem.
-                Nosso website dá a você a habilidade de 'baixar mais RAM' sem custo algum!
-                Simplesmente escolha quanto você quer e faça o download.
-                Sua velocidade vai melhorar instantaneamente!
+            <p>Como que este site funciona, voc&ecirc; quer saber? Baixe Mais RAM faz exatamente o que diz na embalagem.
+                Nosso website d&aacute; a voc&ecirc; a habilidade de 'baixar mais RAM' sem custo algum!
+                Simplesmente escolha quanto voc&ecirc; quer e fa&ccedil;a o download.
+                Sua velocidade vai melhorar instantaneamente!</p>
+                <p className="footer-smallprint">&copy; Copyright {currentYear} Todos os direitos e toda a RAM reservados.</p>
+                <p className="footer-smallprint">Isto n&atilde;o &eacute; uma farsa, n&atilde;o &eacute; um v&iacute;rus, &eacute;
+                apenas <strong>um site de piada</strong>, sorria {isWednesday ? <em>que é quarta-feira meus bacanxs</em> : ":)"}</p>
+                <p className="footer-smallprint">Baseado no original/cl&aacute;ssico: <a href="https://downloadmoreram.com"
+                    target="_blank" rel="noopener noreferrer">https://downloadmoreram.com</a>
             </p>
-            <p className="footer-smallprint">&copy; Copyright {currentYear} Todos os direitos e toda a RAM reservados.</p>
-            <p className="footer-smallprint">Isto não é uma farsa, não é um vírus, é
-                apenas <strong>um site de piada</strong>, sorria {isWednesday ? <em>é quarta-feira meus bacanxs</em> : ":)"}
-            </p>
-            <p className="footer-smallprint">Baseado no original/clássico: <a href="https://downloadmoreram.com"
-                target="_blank" rel="noopener noreferrer">https://downloadmoreram.com</a></p>
         </footer>
     )
 }

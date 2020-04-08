@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BaixeMaisRAM.com.br
 
-## Available Scripts
+Este repositório tem o código do https://baixemaisram.com.br :)
 
-In the project directory, you can run:
+Este projeto foi _bootstrapped_ usando [Create React App](https://github.com/facebook/create-react-app).
+Projeto feito apartir de:
+
+1. Uma ideia boba de amigos conversando besteira;
+2. Tédio durante a [quarentena do COVID-19 em 2020](https://pt.wikipedia.org/wiki/COVID-19);
+3. Exercício do conteúdo que aprendi [neste curso](https://fullstackopen.com/en) (o qual recomendo, mas é em inglês)
+
+## Sobre o Projeto
+
+É um projeto React, provavelmente não muito bem feito hahaha. A ideia veio quando quis mandar um "baixa mais RAM ué"
+para uma pessoa que não manjava de inglês. Alguém* fez o site perfeito para isso: <https://downloadmoreram.com>
+(traduzindo: baixe mais ram .com). Comprei os domínios baixemaisram.com.br e baixarmaisram.com.br e... Esqueci.
+
+Até aquele dia que ~a Nação do Fogo~ o SARS-CoV-2 atacou a humanidade. De férias e sem muito o que fazer, fiz um
+curso sobre desenvolvimento front-end moderno. Para pôr em prática o que eu estudei, finalmente fiz esse site.
+
+### Autoria
+
+Me chamo Rafael Lins, e fiz isso. Sou dev a bastante tempo, em particular Java, Kotlin e JavaScript. Parei de
+mexer com front-end quando o Google anunciou o Angular 2. Curtia (curto?) bastante a forma de se trabalhar com
+o Angular 1, mas enfim. Meus tempos de front-end dev passaram e eu sempre curti mais Back-end...
+
+Para saber mais sobre mim, visite <http://rafaelmadureiralins.com.br> :)
+
+Quanto ao DownloadMoreRAM.com... Não consegui encontrar o(a) autor(a) e nem entrar em contato (bom, mandei e-mail
+mas continuo sem resposta). Autoria da ideia original e do site o qual copiei é 100% de seja quem for que fez ele!
+
+### Contribuindo e Contato
+
+Caso queira contribuir, sinta-se a vontade para criar *Pull Requests* ou abrir _Issues_ sugerindo quaisquer coisas.
+32GB de RAM já nāo é mais o bastante? Sem problemas, podemos aumentar para 64GB de RAM!
+
+Caso prefira, você pode entrar em contato comigo via e-mail: `rafael [arroba] baixemaisram.com.br`.
+
+### Doações e afins
+
+Tudo isso é **sem qualquer fim lucrativo**. Custa bem pouco manter o site e adoro bobagens assim, isso que me motiva.
+
+Sinta-se livre pra usar a funçāo de *Sponsorship* do Github. Fora isso, boa sorte tentando doar algo hahaha >:)
+
+## Executando e Construindo
+
+Após baixar o projeto, os comandos padrão de aplicações `node` estarāo disponíveis. Daqui para frente este LEIAME
+é apenas uma traduçāo que fiz do LEIAME do `create-react-app` :)
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Roda a aplicaçāo em modo de desenvolvimento. Abra <http://localhost:3000> para ver no
+navegador.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+>**Dica:** Há um serviço muito útil chamado `ngrok`, gratuito e [disponível aqui](https://ngrok.com/) que pode
+>te ajudar a compartilhar um serviço rodando no seu computador com outras pessoas via Internet.
+>
+>Este é um serviço ideal para demonstrar coisas que "só rodam no meu PC".
+>
+>**O `ngrok` foi feito apenas para testes/demonstrações. Use-o apenas para isso :)**
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A página vai recarregar automaticamente quando você salvar alterações. Erros e avisos sobre seu código serāo
+impressos no `console` (tanto na linha de comando quanto no navegador).
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Constrói uma versāo de produçāo da aplicaçāo no diretório `build`. Essa versāo já integra o React pronto para
+produçāo e otimiza seu código para a melhor performance. Os arquivos serāo minificados e renomeados com hashes.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Veja a seçāo sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações
+(em inglês).
