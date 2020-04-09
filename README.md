@@ -43,7 +43,8 @@ bobagens assim, isso que me motiva.
 
 Deixa uma estrelinha no projeto e isso já vai me deixar bem feliz! ^^
 
-<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+>**Estrelinhas:** São como Curtidas, só que em projetos de código aberto. Perto do topo no lado
+>direito há um botão com uma estrela. Basta clicar no botão :)
 
 ## Executando e Construindo
 
