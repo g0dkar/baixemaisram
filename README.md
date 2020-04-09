@@ -41,6 +41,10 @@ Caso prefira, você pode entrar em contato comigo via e-mail: `rafael [arroba] b
 Nāo, obrigado. Tudo isso é **sem qualquer fim lucrativo**. Custa bem pouco manter o site e adoro
 bobagens assim, isso que me motiva.
 
+Deixa uma estrelinha no projeto e isso já vai me deixar bem feliz! ^^
+
+<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
 ## Executando e Construindo
 
 Após baixar o projeto, os comandos padrão de aplicações `node` estarāo disponíveis. Daqui para frente este LEIAME
