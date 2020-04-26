@@ -4,6 +4,11 @@ import { Switch, Route, useRouteMatch, useParams } from "react-router-dom"
 import DownloadCTA from './DownloadCTA'
 import ReactGA from 'react-ga'
 
+const registerConversion = () => {
+    try { window.gtag('event', 'conversion', { 'send_to': 'AW-986524918/0PIkCOW0qc4BEPbZtNYD' }); }
+    catch (e) { }
+}
+
 const maxRAM = 32.0
 
 const Disclaimer = () => <div id="download-cta"><h1 className="download-ram-h1">Aviso</h1><div className="div-div"></div><p>Isto não é uma farsa, não é um vírus, é apenas <strong>um site de piada</strong>, sorria :)</p></div>
@@ -72,7 +77,10 @@ const Animation = () => {
     )
 }
 
-const DownloadRAM = () => <><Animation /><Disclaimer /></>
+const DownloadRAM = () => {
+    registerConversion()
+    return (<><Animation /><Disclaimer /></>)
+}
 
 const Download = ({ linkMap }) => {
     const match = useRouteMatch();
