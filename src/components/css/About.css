@@ -1,0 +1,10 @@
+#about {
+    padding: 2em;
+    margin: auto;
+    max-width: 720px;
+}
+
+#about h1 {
+    text-align: center;
+    font-weight: normal;
+}
